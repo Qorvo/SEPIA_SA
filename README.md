@@ -281,7 +281,8 @@ By using the QSPICE as a strong back-end simulator, it supports complex data pro
 
 ### SEPIA@QSPICE
 
-The QSPICE supports **user-defined C++ and/or Verilog** circuit blocks.  The SEPIA processing routines are implemented as one of such user-defined circuit blocks, that is the **DLL binary** available here.
+The [SEPIA@QSPICE](https://github.com/Qorvo/SEPIA_at_QSPICE) is a **in-simulation probe** implementation of SEPIA.  
+The QSPICE supports **user-defined C++ and/or Verilog** circuit blocks.  The SEPIA processing routines are implemented as one of such user-defined circuit blocks, that is the **DLL binary** available.
 
 > [!IMPORTANT]
 > This SEPIA@QSPICE module is a **SUB-SET of the SEPIA**, where **NOT ALL the SEPIA PROCESUREs** implemented.
